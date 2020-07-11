@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine_EvanAdamson", "GameEngine_EvanAdamson\GameEngine_EvanAdamson.vcxproj", "{6878975E-756A-40E3-A425-FE6621F98A03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoolGame_EvanAdamson", "CoolGame_EvanAdamson\CoolGame_EvanAdamson.vcxproj", "{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{6878975E-756A-40E3-A425-FE6621F98A03}.Release|x64.Build.0 = Release|x64
 		{6878975E-756A-40E3-A425-FE6621F98A03}.Release|x86.ActiveCfg = Release|Win32
 		{6878975E-756A-40E3-A425-FE6621F98A03}.Release|x86.Build.0 = Release|Win32
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Debug|x64.ActiveCfg = Debug|x64
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Debug|x64.Build.0 = Debug|x64
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Debug|x86.ActiveCfg = Debug|Win32
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Debug|x86.Build.0 = Debug|Win32
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Release|x64.ActiveCfg = Release|x64
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Release|x64.Build.0 = Release|x64
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Release|x86.ActiveCfg = Release|Win32
+		{6ED7A543-FD44-4C9E-A74A-F92B10ACB929}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

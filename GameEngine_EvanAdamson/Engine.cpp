@@ -1,4 +1,4 @@
-#include "Engine.h"
+#include "Include\Engine.h"
 
 
 
@@ -17,7 +17,7 @@ void Engine::Update()
 	sf::Event _event;
 	
 	//run the program as long as the window is open
-	while (window->isOpen() == true)
+	while (window->pollEvent(_event))
 	{
 		
 
@@ -30,6 +30,7 @@ void Engine::Update()
 
 		}
 	}
+	world->tick(10.0f); //milliseconds per tick
 }
 
 Engine & Engine::GetInstance()
@@ -50,5 +51,16 @@ void Engine::Start(sf::RenderWindow * win)
 	{
 		Update();
 	}
+
+	
+
+}
+
+void Engine::AddSystem(ECS::EntitySystem * newSys)
+{
+
+	world->registerSystem(newSys);
+	world->enableSystem(newSys);
+
 
 }
